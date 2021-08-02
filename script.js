@@ -4,6 +4,7 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 
+//if you replace "ardajs" with your own name your name appears on the first page when you open the site
 getUser("ardajs");
 
 async function getUser(username) {
